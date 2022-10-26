@@ -1,0 +1,12 @@
+
+    const min = Number(prompt("Digite a quantidade de minutos utilizados"))
+    const total = 50
+
+    if(min > 100){
+        const valor = ((min - 100) * 2)
+        const paga = valor + 50
+        alert(`Você deverá pagar ${paga.toFixed(2)} reais`)
+    } else {
+        alert(`Você irá pagar ${total.toFixed(2)} reais.`)
+    }
+

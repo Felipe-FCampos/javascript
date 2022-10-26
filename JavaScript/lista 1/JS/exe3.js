@@ -1,0 +1,10 @@
+
+    const nota1 = Number(prompt("Digite a primeira nota: "))
+    const nota2 = Number(prompt("Digite a segunda nota: "))
+    const notaA = 3.5
+    const notaB = 7.5
+
+    const pond = ((nota1 * notaA) + (nota2 * notaB))
+    const media = pond / 11
+
+    alert("A sua média é: " + media.toFixed(5))

@@ -1,0 +1,17 @@
+
+    const codigo = Number(prompt("Digite o código do produto"))
+    const quantidade = Number(prompt("Digite a quantidade do produto"))
+    const pagar = 0
+    
+    if (codigo == 1){
+        pagar = 5 * quantidade
+    } else if (codigo == 2){
+        pagar = 3.5 * quantidade
+    } else if (codigo == 3){
+        pagar = 4.8 * quantidade
+    } else if(codigo == 4){
+        pagar = 8.9 * quantidade
+    } else if(codigo == 5){
+        pagar = 7.32 * quantidade
+    }
+    alert(`Sua conta deu ${pagar.toFixed(2)}`)

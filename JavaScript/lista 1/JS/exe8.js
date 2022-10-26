@@ -1,0 +1,7 @@
+
+    const dist = parseFloat(prompt("Digite a distancia percorrida em quilometros:"))
+    const gas = parseFloat(prompt("Digite a quantidade de gasolina em litros:"))
+
+    const gasto = dist / gas
+
+    alert(`${gasto.toFixed(3)} km/L`)

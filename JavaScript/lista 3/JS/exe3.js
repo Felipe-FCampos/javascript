@@ -1,6 +1,8 @@
 
-    const num1 = Number(prompt("Digite o primeiro numero:"))
-    const num2 = Number(prompt("Digite o segundo numero:"))
+function calcular(){
+    const num1 = Number(document.querySelector('#numero1').value)
+    const num2 = Number(document.querySelector('#numero2').value)
+}
 
     function adicao() {
         const soma = num1 + num2
@@ -22,7 +24,7 @@
         return div   
     }
 
-    alert(`adição: ` + adicao(num1, num2))
-    alert(`subtração: ` + subtracao(num1, num2))
-    alert(`multiplicação: ` + multiplicacao(num1, num2))
-    alert(`divisão: ` + divisao(num1, num2))
+    alert(`adição: ` + adicao(num1, num2)
+    `subtração: ` + subtracao(num1, num2)
+    `multiplicação: ` + multiplicacao(num1, num2)
+    `divisão: ` + divisao(num1, num2))

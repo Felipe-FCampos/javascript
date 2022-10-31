@@ -4,22 +4,22 @@ function calcular(){
     const num2 = Number(document.querySelector('#numero2').value)
 }
 
-    function adicao() {
+    function adicao(num1, num2) {
         const soma = num1 + num2
         return soma   
     }
 
-    function subtracao() {
+    function subtracao(num1, num2) {
         const sub = num1 - num2
         return sub   
     }
 
-    function multiplicacao() {
+    function multiplicacao(num1, num2) {
         const mult = num1 * num2
         return mult   
     }
 
-    function divisao() {
+    function divisao(num1, num2) {
         const div = num1 / num2
         return div   
     }

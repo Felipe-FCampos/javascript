@@ -2,6 +2,8 @@
 function calcular(){
     const num1 = Number(document.querySelector('#numero1').value)
     const num2 = Number(document.querySelector('#numero2').value)
+
+    console.log(num1 + num2)
 }
 
     function adicao(num1, num2) {
